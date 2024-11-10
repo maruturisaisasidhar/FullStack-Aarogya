@@ -12,7 +12,7 @@ const CreateAccount = () => {
     e.preventDefault(); // Prevent default form submission behavior
     try {
       // Make a POST request to the signup endpoint
-      await axios.post("http://localhost:5000/api/auth/signup", {
+      await axios.post("https://fullstack-aarogya.onrender.com/api/auth/signup", {
         username,
         password,
       });
